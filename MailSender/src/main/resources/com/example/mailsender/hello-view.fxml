@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mailsender.SenderController">
+   <children>
+      <Button layoutX="324.0" layoutY="440.0" mnemonicParsing="false" onAction="#onSend" prefHeight="25.0" prefWidth="111.0" text="Send" />
+      <TextField fx:id="mailReceiver" layoutX="197.0" layoutY="57.0" prefHeight="25.0" prefWidth="400.0" />
+      <Label layoutX="130.0" layoutY="61.0" prefHeight="17.0" prefWidth="59.0" text="        TO :" />
+      <TextField fx:id="subject" layoutX="197.0" layoutY="90.0" prefHeight="25.0" prefWidth="400.0" />
+      <Label layoutX="137.0" layoutY="94.0" prefHeight="17.0" prefWidth="52.0" text="Subject :" />
+      <TextArea fx:id="body" layoutX="194.0" layoutY="135.0" prefHeight="272.0" prefWidth="400.0" />
+   </children>
+</Pane>
